@@ -1,0 +1,728 @@
+/*
+font-family:'Neue Haas Unica W01 UltraLight';
+font-family:'Neue Haas Unica W01 Ult1492664';
+font-family:'Neue Haas Unica W01 Thin';
+font-family:'Neue Haas Unica W01 Thi1492562';
+font-family:'Neue Haas Unica W01 Light';
+font-family:'Neue Haas Unica W01 Lig1492560';
+font-family:'Neue Haas Unica W01 Regular';
+font-family:'Neue Haas Unica W01 Hea1492559';
+font-family:'Neue Haas Unica W01 Medium It';
+font-family:'Neue Haas Unica W01 Medium It';
+ont-family:'Neue Haas Unica W01 Med 1492561';
+font-family:'Neue Haas Unica W01 Bold';
+font-family:'Neue Haas Unica W01 Bol1492557';
+font-family:'Neue Haas Unica W01 Heavy';
+font-family:'Neue Haas Unica W01 Hea1492558';
+font-family:'Neue Haas Unica W01 Black';
+font-family:'Neue Haas Unica W01 Bla1492556';
+font-family:'Neue Haas Unica W01 ExtraBlack';
+font-family:'Neue Haas Unica W01 Thi1492563';
+*/
+/*
+@font-face {
+    font-family: 'NeueHaasUnicaPro-Italic';
+    src: url("../fonts/NeueHaasUnica/2E689C_0_0.eot");
+    src: url("../fonts/NeueHaasUnica/2E689C_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/NeueHaasUnica/2E689C_0_0.woff2") format("woff2"), url("../fonts/NeueHaasUnica/2E689C_0_0.woff") format("woff"), url("../fonts/NeueHaasUnica/2E689C_0_0.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica W01 Light';
+    src: url("../fonts/NeueHaasUnica/2E689C_1_0.eot");
+    src: url("../fonts/NeueHaasUnica/2E689C_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/NeueHaasUnica/2E689C_1_0.woff2") format("woff2"), url("../fonts/NeueHaasUnica/2E689C_1_0.woff") format("woff"), url("../fonts/NeueHaasUnica/2E689C_1_0.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica W01 Medium It';
+    src: url("../fonts/NeueHaasUnica/2E689C_2_0.eot");
+    src: url("../fonts/NeueHaasUnica/2E689C_2_0.eot?#iefix") format("embedded-opentype"), url("../fonts/NeueHaasUnica/2E689C_2_0.woff2") format("woff2"), url("../fonts/NeueHaasUnica/2E689C_2_0.woff") format("woff"), url("../fonts/NeueHaasUnica/2E689C_2_0.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica W01 Regular';
+    src: url("../fonts/NeueHaasUnica/2E689C_4_0.eot");
+    src: url("../fonts/NeueHaasUnica/2E689C_4_0.eot?#iefix") format("embedded-opentype"), url("../fonts/NeueHaasUnica/2E689C_4_0.woff2") format("woff2"), url("../fonts/NeueHaasUnica/2E689C_4_0.woff") format("woff"), url("../fonts/NeueHaasUnica/2E689C_4_0.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica W01 Thin';
+    src: url("../fonts/NeueHaasUnica/2E689C_5_0.eot");
+    src: url("../fonts/NeueHaasUnica/2E689C_5_0.eot?#iefix") format("embedded-opentype"), url("../fonts/NeueHaasUnica/2E689C_5_0.woff2") format("woff2"), url("../fonts/NeueHaasUnica/2E689C_5_0.woff") format("woff"), url("../fonts/NeueHaasUnica/2E689C_5_0.ttf") format("truetype")
+}
+*/
+/* line 53, ../sass/stinson.scss */
+#stinson {
+  font-family: 'Neue Haas Unica W01 Regular', sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+  background-color: #090909;
+  .termsAction-text-decoration: underline;
+}
+/* line 60, ../sass/stinson.scss */
+#stinson h1, #stinson h2, #stinson h3, #stinson h4 {
+  color: #fff;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+/* line 65, ../sass/stinson.scss */
+#stinson a {
+  color: #ff1e13;
+}
+/* line 67, ../sass/stinson.scss */
+#stinson a:hover, #stinson a:focus {
+  color: #ff4d13;
+  text-decoration: none;
+}
+/* line 71, ../sass/stinson.scss */
+#stinson a:focus, #stinson a:active {
+  outline: 0;
+  box-shadow: none;
+}
+/* line 77, ../sass/stinson.scss */
+#stinson button:hover {
+  text-decoration: none;
+}
+/* line 80, ../sass/stinson.scss */
+#stinson button:focus, #stinson button:active {
+  outline: 0;
+  box-shadow: none;
+}
+@media (min-width: 991px) {
+  /* line 85, ../sass/stinson.scss */
+  #stinson .container {
+    max-width: 960px;
+  }
+}
+/* line 89, ../sass/stinson.scss */
+#stinson .nav > li {
+  padding: 20px 0;
+}
+@media (max-width: 768px) {
+  /* line 89, ../sass/stinson.scss */
+  #stinson .nav > li {
+    font-size: 15px;
+    border-bottom: 1px solid rgba(255, 30, 19, 0.45) !important;
+  }
+  /* line 94, ../sass/stinson.scss */
+  #stinson .nav > li:last-child {
+    border-bottom: 5px solid rgba(255, 30, 19, 0.8) !important;
+  }
+}
+/* line 98, ../sass/stinson.scss */
+#stinson .nav > li > a {
+  position: relative;
+  display: block;
+  padding: 0 15px;
+  min-width: 110px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-left: 1px solid rgba(255, 30, 19, 0.85);
+}
+@media (max-width: 991px) {
+  /* line 98, ../sass/stinson.scss */
+  #stinson .nav > li > a {
+    min-width: 100px;
+  }
+}
+/* line 112, ../sass/stinson.scss */
+#stinson .navbar-default {
+  background-color: #000;
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
+}
+/* line 117, ../sass/stinson.scss */
+#stinson .navbar-default .navbar-collapse {
+  border-color: #ff1e13;
+}
+/* line 120, ../sass/stinson.scss */
+#stinson .navbar-default .navbar-toggle {
+  border-color: #ff1e13;
+}
+/* line 122, ../sass/stinson.scss */
+#stinson .navbar-default .navbar-toggle:hover, #stinson .navbar-default .navbar-toggle:focus {
+  background-color: #ff1e13;
+}
+/* line 124, ../sass/stinson.scss */
+#stinson .navbar-default .navbar-toggle:hover .icon-bar, #stinson .navbar-default .navbar-toggle:focus .icon-bar {
+  background-color: #FFFFFF;
+}
+/* line 128, ../sass/stinson.scss */
+#stinson .navbar-default .navbar-toggle .icon-bar {
+  background-color: #ff1e13;
+}
+/* line 133, ../sass/stinson.scss */
+#stinson .navbar-default .navbar-nav > .active {
+  border-bottom: 3px solid #ff1e13;
+  background-color: transparent;
+  color: #fff;
+}
+/* line 137, ../sass/stinson.scss */
+#stinson .navbar-default .navbar-nav > .active:focus, #stinson .navbar-default .navbar-nav > .active:hover {
+  border-bottom: 3px solid #ff1e13;
+  background-color: transparent;
+  color: #fff;
+}
+/* line 142, ../sass/stinson.scss */
+#stinson .navbar-default .navbar-nav > .active a {
+  background-color: transparent;
+  color: #fff;
+}
+/* line 145, ../sass/stinson.scss */
+#stinson .navbar-default .navbar-nav > .active a:focus, #stinson .navbar-default .navbar-nav > .active a:hover {
+  background-color: transparent;
+  color: #fff;
+}
+/* line 151, ../sass/stinson.scss */
+#stinson .navbar-default .navbar-nav > li {
+  border-bottom: 3px solid transparent;
+}
+/* line 153, ../sass/stinson.scss */
+#stinson .navbar-default .navbar-nav > li:focus, #stinson .navbar-default .navbar-nav > li:hover {
+  border-bottom: 3px solid #ff1e13;
+}
+/* line 156, ../sass/stinson.scss */
+#stinson .navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+/* line 158, ../sass/stinson.scss */
+#stinson .navbar-default .navbar-nav > li > a:focus, #stinson .navbar-default .navbar-nav > li > a:hover {
+  color: #ececec;
+  background-color: transparent;
+}
+/* line 166, ../sass/stinson.scss */
+#stinson .navbar-brand {
+  height: auto;
+  padding: 15px;
+}
+/* line 169, ../sass/stinson.scss */
+#stinson .navbar-brand img {
+  width: 100%;
+  max-width: 175px;
+}
+/* line 174, ../sass/stinson.scss */
+#stinson .videoContainer {
+  padding: 100px 0 50px;
+  background: url("../img/stinson_header.jpg") no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+@media (max-width: 991px) {
+  /* line 174, ../sass/stinson.scss */
+  #stinson .videoContainer {
+    background: url("../img/stinson_header_movil.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media (max-width: 420px) {
+  /* line 174, ../sass/stinson.scss */
+  #stinson .videoContainer {
+    background-position: right;
+    padding: 75px 0 30px;
+  }
+}
+/* line 188, ../sass/stinson.scss */
+#stinson .videoContainer img {
+  width: 100%;
+}
+/* line 192, ../sass/stinson.scss */
+#stinson .headerHistoria {
+  padding: 100px 0 50px;
+  background: url("../img/historia_back.jpg") no-repeat;
+  background-size: cover;
+  transition: opacity 1s ease;
+  opacity: 1;
+  background-position: center;
+  min-height: 700px;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+  display: table;
+  width: 100%;
+}
+/* line 204, ../sass/stinson.scss */
+#stinson .headerHistoria .introParrafo h2 {
+  font-size: 40px;
+}
+/* line 207, ../sass/stinson.scss */
+#stinson .headerHistoria .introParrafo .subtitle {
+  font-size: 18px;
+  margin-top: 0;
+}
+/* line 211, ../sass/stinson.scss */
+#stinson .headerHistoria .introParrafo p {
+  max-width: 500px;
+  margin: 20px auto;
+  font-size: 15px;
+}
+/* line 216, ../sass/stinson.scss */
+#stinson .headerHistoria .introParrafo .playBtn {
+  display: inline-block;
+}
+/* line 218, ../sass/stinson.scss */
+#stinson .headerHistoria .introParrafo .playBtn i {
+  margin-top: 12px;
+  margin-left: -3px;
+}
+@media (max-width: 600px) {
+  /* line 216, ../sass/stinson.scss */
+  #stinson .headerHistoria .introParrafo .playBtn {
+    display: block;
+  }
+}
+@media (max-width: 600px) {
+  /* line 226, ../sass/stinson.scss */
+  #stinson .headerHistoria .introParrafo h2, #stinson .headerHistoria .introParrafo p {
+    text-align: left;
+  }
+}
+/* line 232, ../sass/stinson.scss */
+#stinson .headerHistoria .container {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 237, ../sass/stinson.scss */
+#stinson .headerFadeOut {
+  opacity: 0;
+}
+/* line 243, ../sass/stinson.scss */
+#stinson .contentHistoria .container {
+  max-width: 768px;
+}
+/* line 246, ../sass/stinson.scss */
+#stinson .contentHistoria p {
+  font-size: 14px;
+  margin: 30px 0;
+  line-height: 1.6;
+}
+/* line 251, ../sass/stinson.scss */
+#stinson .contentHistoria .subtitle {
+  margin-bottom: 0 !important;
+}
+/* line 258, ../sass/stinson.scss */
+#stinson .subtitle {
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+@media (max-width: 768px) {
+  /* line 258, ../sass/stinson.scss */
+  #stinson .subtitle {
+    margin-bottom: 20px;
+  }
+}
+/* line 268, ../sass/stinson.scss */
+#stinson .textIntro {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+/* line 274, ../sass/stinson.scss */
+#stinson #tickets, #stinson #historia, #stinson #contacto, #stinson #galeria {
+  padding: 35px 0;
+}
+/* line 278, ../sass/stinson.scss */
+#stinson #tickets .tickEach {
+  text-align: center;
+  border-left: 1px solid rgba(255, 30, 19, 0.85);
+}
+@media (max-width: 768px) {
+  /* line 278, ../sass/stinson.scss */
+  #stinson #tickets .tickEach {
+    margin: 10px 0;
+  }
+}
+/* line 284, ../sass/stinson.scss */
+#stinson #tickets .tickEach:nth-child(2), #stinson #tickets .tickEach:nth-child(4) {
+  display: inherit;
+}
+@media (max-width: 768px) {
+  /* line 284, ../sass/stinson.scss */
+  #stinson #tickets .tickEach:nth-child(2), #stinson #tickets .tickEach:nth-child(4) {
+    border-left: none;
+  }
+}
+/* line 290, ../sass/stinson.scss */
+#stinson #tickets .tickEach:last-child {
+  border-right: 1px solid rgba(255, 30, 19, 0.85);
+}
+@media (max-width: 768px) {
+  /* line 290, ../sass/stinson.scss */
+  #stinson #tickets .tickEach:last-child {
+    border-right: none;
+  }
+}
+/* line 296, ../sass/stinson.scss */
+#stinson #tickets .tickEach:hover {
+  cursor: pointer;
+}
+/* line 299, ../sass/stinson.scss */
+#stinson #tickets .tickEach p {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-top: 10px;
+}
+/* line 305, ../sass/stinson.scss */
+#stinson #tickets .tickEach span {
+  color: #e0190f;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/* line 309, ../sass/stinson.scss */
+#stinson #tickets .tickEach span:hover {
+  text-decoration: underline;
+}
+/* line 313, ../sass/stinson.scss */
+#stinson #tickets .tickEach img {
+  max-width: 100px;
+}
+/* line 319, ../sass/stinson.scss */
+#stinson #historia p {
+  text-align: justify;
+}
+/* line 322, ../sass/stinson.scss */
+#stinson #historia .introHistoria {
+  text-align: justify;
+}
+@media (max-width: 768px) {
+  /* line 322, ../sass/stinson.scss */
+  #stinson #historia .introHistoria {
+    margin-top: 30px;
+  }
+}
+/* line 328, ../sass/stinson.scss */
+#stinson #historia img {
+  width: 100%;
+}
+/* line 332, ../sass/stinson.scss */
+#stinson .grl-btn {
+  color: #fff;
+  background-color: #ff1e13;
+  padding: 10px 35px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  border: none;
+}
+/* line 343, ../sass/stinson.scss */
+#stinson .grl-btn:focus, #stinson .grl-btn:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #e0190f;
+}
+/* line 349, ../sass/stinson.scss */
+#stinson .owl-prev {
+  float: left;
+}
+/* line 352, ../sass/stinson.scss */
+#stinson .owl-next {
+  float: right;
+}
+/* line 356, ../sass/stinson.scss */
+#stinson .owl-item .item {
+  text-align: center;
+}
+/* line 361, ../sass/stinson.scss */
+#stinson .owl-theme .owl-controls {
+  margin-top: 10px;
+  text-align: center;
+}
+/* line 367, ../sass/stinson.scss */
+#stinson #sync1 .item {
+  padding: 10px 0px;
+  margin: 5px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+/* line 378, ../sass/stinson.scss */
+#stinson #sync2 .item {
+  padding: 10px 0px;
+  margin: 5px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+/* line 390, ../sass/stinson.scss */
+#stinson .item img {
+  width: 100%;
+}
+/* line 394, ../sass/stinson.scss */
+#stinson .inputBox {
+  margin: 5px 0;
+}
+/* line 396, ../sass/stinson.scss */
+#stinson .inputBox input, #stinson .inputBox select {
+  background-color: transparent;
+  border-color: #ffffff;
+  color: rgba(255, 255, 255, 0.85);
+  padding: 10px 15px;
+  margin: 5px 0 10px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 45px;
+}
+/* line 408, ../sass/stinson.scss */
+#stinson .inputBoxValidators {
+  margin: 0 0 10px;
+}
+/* line 411, ../sass/stinson.scss */
+#stinson .form-control-static {
+  font-size: 18px;
+  padding-top: 10px;
+}
+/* line 416, ../sass/stinson.scss */
+#stinson .form-control::-webkit-input-placeholder, #stinson .form-control::-moz-placeholder, #stinson .form-control:-ms-input-placeholder, #stinson .form-control:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.85);
+}
+/* line 419, ../sass/stinson.scss */
+#stinson .form-control:focus {
+  border-color: #ffffff;
+  outline: 0;
+}
+/* line 424, ../sass/stinson.scss */
+#stinson .inputTotal {
+  display: inline-block;
+}
+/* line 426, ../sass/stinson.scss */
+#stinson .inputTotal span {
+  font-weight: 700;
+}
+/* line 433, ../sass/stinson.scss */
+#stinson .totalPrice {
+  display: inline;
+  width: 70px;
+  border: none;
+}
+/* line 438, ../sass/stinson.scss */
+#stinson .playBtn {
+  background-color: transparent;
+  border: 1px solid #ff1e13;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  color: #ff1e13;
+  font-size: 25px;
+  padding: 5px 0 0 5px;
+}
+/* line 448, ../sass/stinson.scss */
+#stinson .modal {
+  overflow-y: auto;
+}
+@media (min-width: 769px) {
+  /* line 450, ../sass/stinson.scss */
+  #stinson .modal .modal-dialog {
+    width: 760px;
+  }
+}
+/* line 455, ../sass/stinson.scss */
+#stinson .modal .modal-backdrop {
+  background-color: #555555 !important;
+}
+/* line 458, ../sass/stinson.scss */
+#stinson .modal .modal-header {
+  border-bottom: none;
+}
+/* line 460, ../sass/stinson.scss */
+#stinson .modal .modal-header h2 {
+  margin-top: 10px;
+}
+@media (max-width: 768px) {
+  /* line 460, ../sass/stinson.scss */
+  #stinson .modal .modal-header h2 {
+    margin-top: 0;
+  }
+}
+/* line 466, ../sass/stinson.scss */
+#stinson .modal .modal-header .subtitle {
+  margin-bottom: 0;
+}
+@media (max-width: 420px) {
+  /* line 469, ../sass/stinson.scss */
+  #stinson .modal .modal-header .bigScreen {
+    display: none;
+  }
+}
+/* line 474, ../sass/stinson.scss */
+#stinson .modal .modal-header .smallDevice {
+  display: none;
+}
+@media (max-width: 420px) {
+  /* line 474, ../sass/stinson.scss */
+  #stinson .modal .modal-header .smallDevice {
+    display: block;
+    margin-top: 5px;
+  }
+}
+/* line 482, ../sass/stinson.scss */
+#stinson .modal button.close {
+  -webkit-appearance: none;
+  padding: 0;
+  cursor: pointer;
+  background: 0 0;
+  border: 1px solid #ff1e13;
+  font-size: 30px;
+  text-shadow: none;
+  opacity: .9;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-weight: 100;
+}
+/* line 495, ../sass/stinson.scss */
+#stinson .modal button.close span {
+  color: #ff1e13;
+  margin-top: -5px;
+  display: block;
+}
+/* line 501, ../sass/stinson.scss */
+#stinson .modal .modal-content {
+  background-color: #000000;
+  padding: 10px;
+}
+/* line 506, ../sass/stinson.scss */
+#stinson .modal .modal-body iframe {
+  width: 100%;
+}
+/* line 509, ../sass/stinson.scss */
+#stinson .modal .modal-body h4 {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 13px;
+  font-weight: 700;
+}
+/* line 515, ../sass/stinson.scss */
+#stinson .modal .modal-body .textTicketIntro {
+  font-size: 15px;
+}
+@media (max-width: 768px) {
+  /* line 519, ../sass/stinson.scss */
+  #stinson .modal .thumbTicket {
+    padding-right: 0;
+    text-align: left;
+  }
+}
+/* line 524, ../sass/stinson.scss */
+#stinson .modal .thumbTicket img {
+  min-width: 80px;
+  max-width: 110px;
+}
+@media (max-width: 768px) {
+  /* line 524, ../sass/stinson.scss */
+  #stinson .modal .thumbTicket img {
+    min-width: inherit;
+    width: 100%;
+  }
+}
+/* line 533, ../sass/stinson.scss */
+#stinson .modal .datosCorrectos {
+  display: block;
+  color: #2cffbe;
+  font-size: 12px;
+}
+/* line 538, ../sass/stinson.scss */
+#stinson .modal .datosInvalidos {
+  display: block;
+  color: #ff4d13;
+  font-size: 12px;
+}
+/* line 543, ../sass/stinson.scss */
+#stinson .modal .checkbox label {
+  font-size: 15px;
+}
+/* line 546, ../sass/stinson.scss */
+#stinson .modal .checkbox label a:hover {
+  text-decoration: underline;
+}
+/* line 551, ../sass/stinson.scss */
+#stinson .modal input.okDatos {
+  border-color: #2cffbe;
+}
+/* line 554, ../sass/stinson.scss */
+#stinson .modal input.invalidDatos {
+  border-color: #ff4d13;
+}
+/* line 559, ../sass/stinson.scss */
+#stinson .modal .otherTickets .tickEach:nth-child(2) {
+  border-left: 1px solid rgba(255, 30, 19, 0.55);
+  border-right: 1px solid rgba(255, 30, 19, 0.55);
+}
+/* line 566, ../sass/stinson.scss */
+#stinson .modal .tickEach img {
+  max-width: 120px;
+  width: 100%;
+}
+/* line 571, ../sass/stinson.scss */
+#stinson .modal .tickEach a:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+/* line 578, ../sass/stinson.scss */
+#stinson .gradientLine {
+  border: none;
+  position: relative;
+  margin: 50px 0;
+}
+/* line 582, ../sass/stinson.scss */
+#stinson .gradientLine::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 1.5px;
+  background: #ff2014;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, transparent), color-stop(50%, #ff2014), color-stop(100%, transparent));
+  background: -webkit-linear-gradient(left, transparent 0%, #ff2014 50%, transparent 100%);
+  background: -moz-linear-gradient(left, transparent 0%, #ff2014 50%, transparent 100%);
+  background: -ms-linear-gradient(left, transparent 0%, #ff2014 50%, transparent 100%);
+  background: -o-linear-gradient(left, transparent 0%, #ff2014 50%, transparent 100%);
+  background: linear-gradient(left, transparent 0%, #ff2014 50%, transparent 100%);
+}
+@media (max-width: 768px) {
+  /* line 578, ../sass/stinson.scss */
+  #stinson .gradientLine {
+    margin: 20px 0;
+  }
+}
+/* line 601, ../sass/stinson.scss */
+#stinson .gradientLineTop {
+  border: none;
+  position: relative;
+  margin: 50px 0;
+}
+/* line 605, ../sass/stinson.scss */
+#stinson .gradientLineTop::before {
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 25px;
+  height: 1.5px;
+  background: #ff2014;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, transparent), color-stop(50%, #ff2014), color-stop(100%, transparent));
+  background: -webkit-linear-gradient(left, transparent 0%, #ff2014 50%, transparent 100%);
+  background: -moz-linear-gradient(left, transparent 0%, #ff2014 50%, transparent 100%);
+  background: -ms-linear-gradient(left, transparent 0%, #ff2014 50%, transparent 100%);
+  background: -o-linear-gradient(left, transparent 0%, #ff2014 50%, transparent 100%);
+  background: linear-gradient(left, transparent 0%, #ff2014 50%, transparent 100%);
+}
+/* line 621, ../sass/stinson.scss */
+#stinson .termsAction {
+  cursor: pointer;
+}
