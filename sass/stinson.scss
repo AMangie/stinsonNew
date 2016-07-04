@@ -57,6 +57,7 @@ font-family:'Neue Haas Unica W01 Thi1492563';
     -webkit-font-smoothing: antialiased;
     font-weight: normal;
     background-color: #090909;
+    overflow-x: hidden; 
 	h1, h2, h3, h4{
 	    color: #fff;
 	    font-weight: 100;
@@ -88,7 +89,7 @@ font-family:'Neue Haas Unica W01 Thi1492563';
 	}
 	.nav>li{
 	    padding: 20px 0;
-	    @media (max-width: 768px){
+	    @media (max-width: 767px){
 			font-size: 15px;
 			border-bottom: 1px solid rgba(255, 30, 19, 0.45) !important;
 			&:last-child{
@@ -164,11 +165,20 @@ font-family:'Neue Haas Unica W01 Thi1492563';
 		}
 	}
 	.navbar-brand {
-	    height: auto;
+	    height: 65px;
 	    padding: 15px;
+	    @media (min-width: 768px){
+		    min-width: 210px;
+		}
 	    img{
 		    width: 100%;
 		    max-width: 175px;
+		}
+	}
+	.collapse{
+		@media (min-width: 768px){
+			display: inline-block !important;
+			float: right;
 		}
 	}
 	.videoContainer {
@@ -189,6 +199,24 @@ font-family:'Neue Haas Unica W01 Thi1492563';
 	    	width: 100%;
 	    }
 	}
+	.histMenu{
+		a{
+			border-left: none !important;
+		}
+	}
+	#success{
+		width: 100%; 
+		height: 70px; 
+		text-align: center; 
+		font-size: 16px; 
+		font-weight: 100; 
+		color: rgb(44, 255, 190); 
+		padding-top: 10px; 
+		position: absolute; 
+		top: 65px; 
+		display: inline-block; 
+		background: rgba(0,0,0,0.75);
+	}
 	.headerHistoria{
 		padding: 100px 0 50px;
 	    background: url('../img/historia_back.jpg') no-repeat;
@@ -196,10 +224,13 @@ font-family:'Neue Haas Unica W01 Thi1492563';
 	    transition: opacity 1s ease;
 	    opacity: 1;
 	    background-position: center;
-	    min-height: 700px;
 	    box-shadow:inset 0 0 0 1000px rgba(0,0,0,.6);
 	    display: table;
 	    width: 100%;
+	    min-height: 700px;
+	    @media (min-width: 769px){
+		    height: 700px;
+		}
 	    .introParrafo{
 	    	h2{
 	    		font-size: 40px;
@@ -241,7 +272,7 @@ font-family:'Neue Haas Unica W01 Thi1492563';
 		// transition: margin .5s ease;
 		// margin-top: 0;
 		.container{
-	    	max-width: 768px;
+	    	max-width: 767px;
 	    }
 	    p{
 	    	font-size: 14px;
@@ -261,7 +292,7 @@ font-family:'Neue Haas Unica W01 Thi1492563';
 	    text-transform: uppercase;
 	    font-weight: 600;
 	    margin-bottom: 50px; 
-	    @media (max-width: 768px){
+	    @media (max-width: 767px){
     		margin-bottom: 20px;
     	}
 	}
@@ -278,18 +309,18 @@ font-family:'Neue Haas Unica W01 Thi1492563';
 		.tickEach{
 		    text-align: center;
 		    border-left: 1px solid rgba(255, 30, 19, 0.85);
-		    @media (max-width: 768px){
+		    @media (max-width: 767px){
 			    margin: 10px 0;
 		    }
 		    &:nth-child(2), &:nth-child(4){
 		    	display: inherit;
-		   		@media (max-width: 768px){
+		   		@media (max-width: 767px){
 			    	border-left: none;
 		    	}
 		    }
 		    &:last-child{
 		    	border-right: 1px solid rgba(255, 30, 19, 0.85);
-		    	@media (max-width: 768px){
+		    	@media (max-width: 767px){
 		    		border-right: none;
 		    	}
 		    }
@@ -321,7 +352,7 @@ font-family:'Neue Haas Unica W01 Thi1492563';
 	    }
 		.introHistoria{
 	    	text-align: justify;
-			@media (max-width: 768px){
+			@media (max-width: 767px){
 	    		margin-top: 30px; 
 	    	}
 		}
@@ -445,6 +476,20 @@ font-family:'Neue Haas Unica W01 Thi1492563';
 	    font-size: 25px;
 	    padding: 5px 0 0 5px;
 	}
+	#okPurchaseModal{
+		h2, i{
+			color: #2cffbe;
+		}
+		i{
+			font-size: 40px;
+		}
+		.modal-body {
+		    padding-top: 0;
+		}
+		p{
+		    font-size: 16px;
+		}
+	}
 	.modal{
 		overflow-y: auto;
 		.modal-dialog {
@@ -459,7 +504,7 @@ font-family:'Neue Haas Unica W01 Thi1492563';
 		    border-bottom: none;
 		    h2{
 			    margin-top:10px; 
-			@media (max-width: 768px){
+			@media (max-width: 767px){
 				 	margin-top: 0;
 				}
 			}
@@ -517,14 +562,14 @@ font-family:'Neue Haas Unica W01 Thi1492563';
 			}
 		}
 		.thumbTicket {
-			@media (max-width: 768px){
+			@media (max-width: 767px){
 	    		padding-right: 0;
 	    		text-align: left;
 	    	}
 			img {
 			    min-width: 80px;
 			    max-width: 110px;
-			    @media (max-width: 768px){
+			    @media (max-width: 767px){
 		    		min-width: inherit;
 		    		width: 100%;
 		    	}
@@ -547,6 +592,9 @@ font-family:'Neue Haas Unica W01 Thi1492563';
 					text-decoration: underline;
 				}
 			}
+		}
+		option{
+			color: #333333;
 		}
 		input.okDatos{
 		    border-color: #2cffbe;
@@ -594,7 +642,7 @@ font-family:'Neue Haas Unica W01 Thi1492563';
 		    background: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, #ff2014 50%, rgba(0, 0, 0, 0) 100%);
 		    background: linear-gradient(left, rgba(0, 0, 0, 0) 0%, #ff2014 50%, rgba(0, 0%, 0%, 0) 100%);
 		}
-		@media (max-width: 768px){
+		@media (max-width: 767px){
     		margin: 20px 0;
     	}
 	}
